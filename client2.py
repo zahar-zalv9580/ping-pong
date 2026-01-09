@@ -116,7 +116,7 @@ while True:
     clock.tick(60)
 
     keys = key.get_pressed()
-    if keys[K_w]:
+    if keys[K_UP]:
         client.send(b"UP")
-    elif keys[K_s]:
+    elif keys[K_DOWN]:
         client.send(b"DOWN")
